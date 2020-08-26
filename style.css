@@ -1,0 +1,63 @@
+.card_0,.card_1,.card_2,.card_3,.card_4,.card_5,.card_6,.card_7,.card_8,.card_9{
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 7px solid red;
+   border-radius: 0.5em;
+  }
+  
+  
+  .container_0 ,.container_1,.container_2,.container_3,.container_4,.container_5,.container_6,.container_7,.container_8,.container_9{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+ 
+  .card_0:hover .container_0,.card_1:hover .container_1,.card_2:hover .container_2,.card_3:hover .container_3,.card_4:hover .container_4,.card_5:hover .container_5,.card_6:hover .container_6,.card_7:hover .container_7,.card_8:hover .container_8,.card_9:hover .container_9 {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .front_0, .back_0,.front_1, .back_1,.front_2, .back_2,.front_3, .back_3,.front_4, .back_4,.front_5, .back_5,.front_6, .back_6,.front_7, .back_7,.front_8, .back_8,.front_9, .back_9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+ 
+  .front_0,.front_1,.front_2,.front_3,.front_4,.front_5,.front_6,.front_7,.front_8,.front_9 {
+      
+    align-content: space-between;
+  
+    text-align: center;
+    font-size:x-large;
+    background-color:royalblue;
+    color: rgb(201, 252, 252);
+  }
+  
+  
+  .back_0,.back_1,.back_2,.back_3,.back_4,.back_5,.back_6,.back_7,.back_8,.back_9 {
+    background-color: aqua;
+    color:black;
+    transform: rotateY(180deg);
+  }
+  .xBack,.xFront{
+      position: relative
+      ;
+      bottom: 5em;
+    left: 3.5em;
+    width: 20px;  height: 20px;
+  }
+  .xBack{
+    
+    position: absolute;
+    padding-left: 6em;
+    padding-bottom: 2em;
+  }
+ 
